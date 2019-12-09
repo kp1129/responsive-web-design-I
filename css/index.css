@@ -291,3 +291,46 @@ footer {
         display: none;
     }
 }
+
+@media (max-width: 500px){
+ .main {
+     width: 100%;
+ }
+ .menu-logo {
+     width: 100%;
+     padding-bottom: 10px;
+     text-align: center;
+ }
+ .menu-items {
+     flex-direction: column;
+     text-align: center;
+     width: 100%;
+     margin-top: 0;
+ }
+ .menu-items a {
+     width: 100%;
+     padding: 10px 0;
+ }
+ .menu-logo, .menu-items a {
+     border-bottom: 1px solid black;
+ }
+
+ hr, section, section.container {
+     width: 95%;
+     margin: 10px auto;
+ }
+ section.container {
+     display: flex;
+     flex-direction: column;
+ }
+
+ section.container div {
+     width: 100%;
+     margin: 10px 0;
+ }
+
+ h3 {
+     margin-top: 10px;
+ }
+
+}
